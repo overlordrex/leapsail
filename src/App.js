@@ -1,4 +1,5 @@
 import './App.css';
+import GetStarted from './components/getStarted';
 import Hero from './components/hero';
 import Header from './components/navBar';
 
@@ -7,6 +8,7 @@ function App() {
     <div className="App">
       <Header/>
       <Hero/>
+      <GetStarted/>
     </div>
   );
 }

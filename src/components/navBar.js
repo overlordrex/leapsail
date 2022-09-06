@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function Header() {
   return (
     <section>
-      <nav className="navbar navbar-expand-lg navbar-light">
+      <nav className="navbar navbar-expand-lg fixed-top navbar-light">
         <div className='container'>
           <Link className='navbar-brand' to="/">
             <img src={logo} alt="" className='logo img-fluid' />

@@ -13,8 +13,8 @@ function Hero() {
             <h6 className="mb-5">Created with a can do and achievers mindset. A self-onboarding application with features that open you to a new way.</h6>
             <a className='btn brand-bg text-white px-5 py-3 rounded-pill' href="/">Get Started</a>
             <div className="d-flex flex-row mt-5">
-              <Link to="/"><img src={apple} alt="" title="Download on Appstore" className="img-fluid" width={170}/></Link>
-              <Link to="/"><img src={google} alt="" title="Download on Playstore" className="img-fluid" width={170} /></Link>
+              <Link to="/"><img src={apple} alt="download on apple" title="Download on Appstore" className="img-fluid" width={170}/></Link>
+              <Link to="/"><img src={google} alt="download on google" title="Download on Playstore" className="img-fluid" width={170} /></Link>
             </div>
           </div>
           <div className="col-md-6 left"></div>
