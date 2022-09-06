@@ -15,7 +15,7 @@ function GetStarted() {
             <h6>What would you like to manage with Leapsail.com?</h6>
           </div>
         </div>
-        <div className="row justify-content-center text-center">
+        <div className="row justify-content-center text-center products">
           <div className="col-10 col-md-10 col-xxl-9">
             <div className="d-flex flex-row mt-5">
               <img src={tour} alt="tours" title="Tours" className="img-fluid me-3" />
