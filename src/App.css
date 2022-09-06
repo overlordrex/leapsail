@@ -97,3 +97,7 @@ body {
 .products img {
   cursor: pointer;
 }
+
+.btn-padding {
+  padding-top: 60px;
+}
