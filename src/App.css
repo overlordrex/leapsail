@@ -21,7 +21,23 @@ body {
 
 .nav-item {
   padding-left: 20px;
-  font-size: 17px;
+  font-size: 15px!important;
+  line-height: 22px;
+  font-weight: 300!important;
+}
+
+.brand-color {
+  color: #F6B736;
+}
+
+.brand-bg {
+  background-color: #F6B736;
+  border: #F6B736;
+}
+
+.brand-bg:hover {
+  background-color: #af790d;
+  border: #af790d;
 }
 
 .navbar {
