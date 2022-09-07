@@ -29,7 +29,7 @@ function Steppers() {
                 </div>
                 <div style={{marginLeft: "40px", marginTop: "5px"}}>
                   <h5 className="fw-bold">Book a slot</h5>
-                  <p className="lead pb-5">You can speak with us or visit our office on appointment</p>
+                  <p className="lead pb-5">You can speak with us or visit our office on <br/>appointment</p>
                 </div>
               </div>
               <div className="d-flex mb-1">
