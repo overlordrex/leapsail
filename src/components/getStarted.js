@@ -26,7 +26,7 @@ function GetStarted() {
             <h6>What would you like to manage with Leapsail.com?</h6>
           </div>
         </div>
-        <div className="row justify-content-center products">
+        <div className="row justify-content-center products desktop">
           <div className="col-12 col-md-10 col-xxl-9">
             <div className="d-flex flex-row mt-5">
               <img src={tour} alt="tours" title="Tours" className="img-fluid me-3" />
@@ -37,7 +37,7 @@ function GetStarted() {
             </div>
           </div>
         </div>
-        <div className="row justify-content-center products">
+        <div className="row justify-content-center products desktop">
           <div className="col-12 col-md-8 col-xxl-7">
             <div className="d-flex flex-row mt-4">
               <img src={estate} alt="estate" title="Estate" className="img-fluid me-3" />
@@ -48,7 +48,7 @@ function GetStarted() {
             </div>
           </div>
         </div>
-        <div className="row justify-content-center products">
+        <div className="row justify-content-center products desktop">
           <div className="col-12 col-md-8 col-xxl-7">
             <div className="d-flex flex-row mt-4">
               <img src={reservation} alt="reservation" title="Reservation" className="img-fluid me-3" style={{height: "40px"}} />
@@ -58,7 +58,7 @@ function GetStarted() {
             </div>
           </div>
         </div>
-        <div className="row justify-content-center products">
+        <div className="row justify-content-center products desktop">
           <div className="col-12 col-md-4 col-xxl-3">
             <div className="d-flex flex-row mt-4">
               <img src={hub} alt="hub" title="Hub" className="img-fluid me-3" />

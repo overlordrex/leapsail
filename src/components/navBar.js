@@ -41,7 +41,7 @@ function Header() {
                   <Link className="nav-link" to="/">Login</Link>
                 </li>
                 <li className='nav-item'>
-                  <a className='btn btn-warning text-white px-4 rounded-pill' href="/">Create Account</a>
+                  <a className='btn brand-bg text-white px-4 rounded-pill' href="/">Create Account</a>
                 </li>
               </ul>
             </div>
