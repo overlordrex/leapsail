@@ -6,7 +6,7 @@ function Steppers() {
     <section className="steps">
       <div className="container">
         <div className="row">
-          <div className="col-md-6 mb-4">
+          <div className="col-md-6 mb-3">
             <img src={steps} alt="" className="img-fluid" style={{maxWidth :"94%"}}/>
           </div>
           <div className="col-md-6 steppings">
@@ -19,7 +19,7 @@ function Steppers() {
                 </div>
                 <div style={{marginLeft: "40px", marginTop: "5px"}}>
                   <h5 className="fw-bold">Create an account</h5>
-                  <p className="lead pb-4">Signup for an account with your name, best email address and phone number.</p>
+                  <p className="lead pb-5">Signup for an account with your name, best email address and phone number.</p>
                 </div>
               </div>
               <div className="d-flex mb-1">
@@ -29,7 +29,7 @@ function Steppers() {
                 </div>
                 <div style={{marginLeft: "40px", marginTop: "5px"}}>
                   <h5 className="fw-bold">Book a slot</h5>
-                  <p className="lead pb-4">You can speak with us or visit our office on appointment</p>
+                  <p className="lead pb-5">You can speak with us or visit our office on appointment</p>
                 </div>
               </div>
               <div className="d-flex mb-1">
@@ -39,7 +39,7 @@ function Steppers() {
                 </div>
                 <div style={{marginLeft: "40px", marginTop: "5px"}}>
                   <h5 className="fw-bold">Grow with Leapsail</h5>
-                  <p className="lead pb-4">Watch your investment grow, realise your dreams and begin your new life.</p>
+                  <p className="lead pb-5">Watch your investment grow, realise your dreams and begin your new life.</p>
                 </div>
               </div>
             </div>
