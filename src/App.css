@@ -178,3 +178,46 @@ body {
 .carousel-control-next-icon {
   background-image: url("./img/right.png")!important;
 }
+
+.steps {
+  padding: 90px 20px;
+  background-color: #f9f9f9;
+}
+
+@media (min-width: 992px){
+  .steppings {
+    padding-right: 100px;
+  }
+}
+
+
+.steps h2 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 60px;
+}
+
+.steps p {
+  font-size: 17px;
+  line-height: 30px;
+  font-weight: 400;
+}
+
+.steps h5 {
+  font-size: 25px;
+  line-height: 35px;
+}
+
+.line {
+  width: 1px;
+  background-color: #F6B736 !important;
+}
+.lead {
+  font-size: 1.1rem;
+}
+
+.digits {
+  color: #F6B736;
+  font-weight: 600;
+  font-size: 20px;
+}
