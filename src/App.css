@@ -45,6 +45,7 @@ body {
 .brand-bg {
   background-color: #F6B736;
   border: #F6B736;
+  font-size: 16px!important;
 }
 
 .brand-bg:hover {
@@ -68,7 +69,7 @@ body {
 
 @media (min-width: 992px){
   .right {
-    padding: 170px 20px 170px 100px;
+    padding: 210px 20px 210px 100px;
   }
 }
 
@@ -112,4 +113,60 @@ body {
 
 .btn-padding {
   padding-top: 60px;
+}
+
+.carousel-section {
+  padding: 100px 20px;
+  background-color: #f9f9f9;
+  ;
+}
+
+.investment {
+  margin-top: 140px;
+}
+
+.visa {
+  margin-top: 75px;
+}
+
+.carousel h2 {
+  font-size: 45px;
+  color: #000;
+  line-height: 60px;
+  font-weight: 700;
+}
+
+.carousel h5 {
+  font-size: 18px;
+  color: #000;
+  line-height: 32px;
+  font-weight: 400;
+}
+
+.carousel a {
+  font-size: 20px!important;
+  line-height: 35px;
+  font-weight: 400;
+  color: #F6B736;
+  text-decoration: none;
+}
+
+.whyleap {
+  padding: 60px 20px;
+  background-color: #fff;
+}
+
+.whyleap h3 {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 60px;
+  color: #000;
+}
+
+.whyleap h4 {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 60px;
+  font-family: 'Playfair Display';
+  color: #605F5E6B;
 }
