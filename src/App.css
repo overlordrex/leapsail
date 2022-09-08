@@ -29,6 +29,14 @@ body {
   }
 }
 
+.banner {
+  background-color: #f7f8f9;
+  background-image: url('./img/bg-footer.png');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .nav-item {
   padding-left: 20px;
   font-size: 15px!important;
