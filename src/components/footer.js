@@ -10,7 +10,7 @@ function Footer() {
       <div className="site-section">
         <div className="container">
           <div className="row">
-            <div className="col-sm-6 mb-3">
+            <div className="col-sm-6 mb-5">
              <img src={logo} alt="" className="img-fluid"/>
              <div className="py-5"><small className="footer-text">All Rights Reserved © Leapsail.com</small></div>
              
@@ -70,13 +70,13 @@ function Footer() {
               </ul>
             </div>
           </div>
-          <div className="col-sm-3 mb-3">
+          <div className="col-md-3 mb-3">
            <ul className="social list-unstyled">
-              <li><i className="bi bi-instagram pe-4 fs-5"></i></li>
-              <li><i className="bi bi-twitter pe-4 fs-5"></i></li>
-              <li><i className="bi bi-linkedin pe-4 fs-5"></i></li>
-              <li><i className="bi bi-facebook pe-4 fs-5"></i></li>
-              <li><i className="bi bi-youtube fs-5"></i></li>
+              <li><i className="bi bi-instagram icon-border fs-5"></i></li>
+              <li><i className="bi bi-twitter icon-border fs-5"></i></li>
+              <li><i className="bi bi-linkedin icon-border fs-5"></i></li>
+              <li><i className="bi bi-facebook icon-border fs-5"></i></li>
+              <li><i className="bi bi-youtube icon-border fs-5"></i></li>
             </ul>
           </div>
         </div>

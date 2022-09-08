@@ -9,7 +9,7 @@ import six from "../img/japa.png";
 function Carousel() {
   return (
     <section className="carousel-section">
-      <div id="carouselExampleControls" className="carousel slide desktop" data-bs-ride="carousel">
+      <div id="carouselExampleControls" className="carousel slide desktop" data-bs-ride="carousel" data-interval="5000">
         <div className="carousel-inner">
           <div className="carousel-item active">
             <div className="container">
@@ -100,7 +100,7 @@ function Carousel() {
           <span className="visually-hidden">Next</span>
         </button>
       </div>
-      <div id="carouselExampleControl" className="carousel slide mobile" data-bs-ride="carousel">
+      <div id="carouselExampleControl" className="carousel slide mobile" data-bs-ride="carousel" data-interval="5000">
         <div className="carousel-inner">
           <div className="carousel-item active">
             <div className="container">
