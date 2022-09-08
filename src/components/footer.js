@@ -58,7 +58,7 @@ function Footer() {
       </div>
       <div className="container">
         <div className="row lower">
-          <div className="col-md-9 mb-3">
+          <div className="col-md-8 mb-3">
             <div className="">
               <ul id="menu" className="list-unstyled">
                 <li>Status</li>
@@ -70,13 +70,13 @@ function Footer() {
               </ul>
             </div>
           </div>
-          <div className="col-md-3 mb-3">
+          <div className="col-md-4 mb-3">
            <ul className="social list-unstyled">
-              <li><i className="bi bi-instagram icon-border fs-5"></i></li>
-              <li><i className="bi bi-twitter icon-border fs-5"></i></li>
-              <li><i className="bi bi-linkedin icon-border fs-5"></i></li>
-              <li><i className="bi bi-facebook icon-border fs-5"></i></li>
-              <li><i className="bi bi-youtube icon-border fs-5"></i></li>
+              <li><a href="/"><i className="bi bi-instagram icon-border text-dark fs-5"></i></a></li>
+              <li><a href="/"><i className="bi bi-twitter icon-border text-dark fs-5"></i></a></li>
+              <li><a href="/"><i className="bi bi-linkedin icon-border text-dark fs-5"></i></a></li>
+              <li><a href="/"><i className="bi bi-facebook icon-border text-dark fs-5"></i></a></li>
+              <li><a href="/"><i className="bi bi-youtube icon-border text-dark fs-5"></i></a></li>
             </ul>
           </div>
         </div>

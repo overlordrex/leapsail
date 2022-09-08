@@ -92,11 +92,11 @@ function Carousel() {
           </div>
         </div>
         <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-          <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span className="bi bi-arrow-left-circle-fill brand-color fs-1" aria-hidden="true"></span>
           <span className="visually-hidden">Previous</span>
         </button>
         <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-          <span className="carousel-control-next-icon" aria-hidden="true"></span>
+          <span className="bi bi-arrow-right-circle-fill brand-color fs-1" aria-hidden="true"></span>
           <span className="visually-hidden">Next</span>
         </button>
       </div>
@@ -183,11 +183,11 @@ function Carousel() {
           </div>
         </div>
         <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControl" data-bs-slide="prev">
-          <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span className="bi bi-arrow-left-circle-fill brand-color fs-1" aria-hidden="true"></span>
           <span className="visually-hidden">Previous</span>
         </button>
         <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleControl" data-bs-slide="next">
-          <span className="carousel-control-next-icon" aria-hidden="true"></span>
+          <span className="bi bi-arrow-right-circle-fill brand-color fs-1" aria-hidden="true"></span>
           <span className="visually-hidden">Next</span>
         </button>
       </div>
