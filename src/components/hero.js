@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import google from "../img/google.png";
 import apple from "../img/apple.png";
+import GetStarted from "./getStarted";
 
 function Hero() {
   return (
@@ -20,6 +21,7 @@ function Hero() {
           <div className="col-md-6 left"></div>
         </div>
       </div>
+      <GetStarted/>
     </section>
   )
 }

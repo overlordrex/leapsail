@@ -4,7 +4,7 @@ import './Footer.css';
 import Carousel from './components/carousel';
 import Footer from './components/footer';
 import FooterTop from './components/footerTop';
-import GetStarted from './components/getStarted';
+// import GetStarted from './components/getStarted';
 import Hero from './components/hero';
 import Header from './components/navBar';
 import Steppers from './components/steppers';
@@ -16,7 +16,7 @@ function App() {
     <div className="App">
       <Header/>
       <Hero/>
-      <GetStarted/>
+      {/* <GetStarted/> */}
       <Carousel/>
       <WhyLeapsail/>
       <Steppers/>
