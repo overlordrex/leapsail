@@ -23,8 +23,6 @@ body {
   }
 }
 
-
-
 @media only screen and (max-width: 768px){
   html, body {
     overflow-x: hidden!important;
@@ -39,7 +37,7 @@ body {
 }
 
 .brand-color {
-  color: #F6B736;
+  color: #F6B736!important;
 }
 
 .brand-bg {
@@ -75,7 +73,7 @@ body {
 
 @media (max-width: 767.98px){
   .right {
-    padding: 120px 40px;
+    padding: 120px 20px;
   }
 }
 
@@ -221,3 +219,49 @@ body {
   font-weight: 600;
   font-size: 20px;
 }
+
+.support-section {
+  background-color: #f3f3f3;
+  padding: 60px 20px;
+}
+
+.support-section h2 {
+  font-size: 30px;
+  line-height: 35px;
+  font-weight: 600;
+}
+
+.support-section h6 {
+  font-size: 17px;
+  line-height: 28px;
+  font-weight: 400;
+}
+
+.twenty-four {
+  padding-top: 65px;
+}
+
+.footertop {
+  padding: 60px 20px;
+  background-image: url("./img/footer-top.png");
+  background-color: #F6B736;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.footertop h2 {
+  font-size: 40px;
+  color: #fff;
+  line-height: 60px;
+  font-weight: 900;
+}
+
+.footertop h6 {
+  font-size: 20px;
+  color: #fff;
+  line-height: 30px;
+  font-weight: 500;
+}
+
