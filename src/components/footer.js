@@ -1,3 +1,5 @@
+/* eslint-disable react/jsx-no-comment-textnodes */
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import { Link } from "react-router-dom";
 import logo from "../img/logo.png";
@@ -59,14 +61,21 @@ function Footer() {
       <div className="container">
         <div className="row lower">
           <div className="col-md-8 mb-3">
-            <div className="">
+            <div className="lower-link">
               <ul id="menu" className="list-unstyled">
-                <li>Status</li>
-                <li>Security</li>
-                <li>Terms of Services</li>
-                <li>Privacy Policy</li>
-                <li>Accessibility Statement</li>
-                <li><i className="bi bi-globe"></i> English</li>
+                <li style={{display : "inline"}}><a href="#">Status</a></li>
+                <li style={{display : "inline"}}><a href="#">Security</a></li>
+                <li style={{display : "inline"}}><a href="#">Terms of Services</a></li>
+                <li style={{display : "inline"}}><a href="#">Privacy Policy</a></li>
+                <li style={{display : "inline"}}><a href="#">Accessibility Statement</a></li>
+                <li className="dropdown" style={{display : "inline"}}>
+                  <a className="dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <i className="bi bi-globe"></i> English
+                  </a>
+                  <ul className="dropdown-menu">
+                    <li><a href="#">French</a></li>
+                  </ul>
+                </li> 
               </ul>
             </div>
           </div>
