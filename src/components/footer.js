@@ -17,8 +17,8 @@ function Footer() {
              <h6 className="fw-bold">Address:</h6>
              <small className="footer-text">23, Ezekiel street, Off Toyin street, Ikeja</small>
               <div className="mt-5">
-                <Link to="/"><img src={google} alt="" title="Download on Appstore" className="img-fluid" width={120} /></Link>
-                <Link to="/"><img src={apple} alt="" title="Download on Playstore" className="img-fluid me-3" width={120} /></Link>
+                <Link to="/"><img src={google} alt="" title="Download on Playstore" className="img-fluid" width={120} /></Link>
+                <Link to="/"><img src={apple} alt="" title="Download on Appstore" className="img-fluid me-3" width={120} /></Link>
               </div>
             </div>
             <div className="col-sm-2 mb-3">
