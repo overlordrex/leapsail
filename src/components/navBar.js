@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from '../img/logo.png';
 import { Link } from "react-router-dom";
+import ng from "../img/ng.png";
 function Header() {
   return (
     <section>
@@ -42,6 +43,9 @@ function Header() {
                 </li>
                 <li className='nav-item'>
                   <a className='btn brand-bg text-white px-4 fs-6 rounded-pill' href="/">Create Account</a>
+                </li>
+                <li className="nav-item">
+                  <Link className="nav-link" to="/"><img src={ng} alt="" className='img-fluid' width={28} /></Link>
                 </li>
               </ul>
             </div>

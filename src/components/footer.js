@@ -5,6 +5,8 @@ import { Link } from "react-router-dom";
 import logo from "../img/logo.png";
 import google from "../img/google.png";
 import apple from "../img/apple.png";
+import fr from "../img/fr.png";
+import esp from "../img/esp.png";
 
 function Footer() {
   return (
@@ -73,7 +75,8 @@ function Footer() {
                     <i className="bi bi-globe"></i> English
                   </a>
                   <ul className="dropdown-menu">
-                    <li><a href="#">French</a></li>
+                    <li><img src={fr} alt="" className="img-fluid pe-2 my-2" width={25} /><a href="#">French</a></li>
+                    <li><img src={esp} alt="" className="img-fluid pe-2" width={25} /><a href="#">Spanish</a></li>
                   </ul>
                 </li> 
               </ul>
