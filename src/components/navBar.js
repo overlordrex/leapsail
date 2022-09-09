@@ -6,6 +6,11 @@ import ng from "../img/ng.png";
 import ballon from "../img/baloon.png";
 import customer from "../img/customer.png";
 import success from "../img/success.png";
+import investment from "../img/inv.png";
+import visa from "../img/vis.png";
+import ticketing from "../img/ticket.png";
+import tours from "../img/tourss.png";
+import hotel from "../img/reserve.png";
 function Header() {
   return (
     <section>
@@ -62,13 +67,71 @@ function Header() {
                         </div> 
                       </div>
                     </div>
-                    {/* <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li> */}
                   </div>
                 </li>
-                <li className="nav-item">
-                  <Link className="nav-link" to="/">Products</Link>
+                <li className="nav-item dropdown">
+                  <Link className="nav-link dropdown-toggle" to="/" role="button" data-bs-toggle="dropdown" aria-expanded="false">Products</Link>
+                  <div className="dropdown-menu dropdown-large">
+                    <div className='row why-leap-menu'>
+                      <div className="col-sm-6 col-12 left-menu">
+                        <div className="d-flex flex-row mb-2">
+                          <div className='p-2'><img src={investment} alt="" className='img-fluid'/> </div>
+                          <div className='p-2 mt-2'>
+                            <h6>Investment</h6>
+                          </div>
+                        </div> 
+                        <div className="d-flex flex-row mb-2">
+                          <div className='p-2'><img src={visa} alt="" className='img-fluid' /> </div>
+                          <div className='p-2 mt-2'>
+                            <h6>Visa</h6>
+                          </div>
+                        </div> 
+                        <div className="d-flex flex-row mb-2">
+                          <div className='p-2'><img src={ticketing} alt="" className='img-fluid'/> </div>
+                          <div className='p-2 mt-2'>
+                            <h6>Ticketing</h6>
+                          </div>
+                        </div> 
+                        <div className="d-flex flex-row mb-2">
+                          <div className='p-2'><img src={hotel} alt="" className='img-fluid'/> </div>
+                          <div className='p-2 mt-2'>
+                            <h6>Hotel Reservation</h6>
+                          </div>
+                        </div> 
+                        <div className="d-flex flex-row mb-2">
+                          <div className='p-2'><img src={tours} alt="" className='img-fluid'/> </div>
+                          <div className='p-2 mt-2'>
+                            <h6>Tours</h6>
+                          </div>
+                        </div> 
+                      </div>
+                      <div className="col-sm-6 col-12 right-menu">
+                        <div className="mb-3">
+                          <div className='p-2'>
+                            <h6>YOUR GROWTH STAGE</h6>
+                            <p>For Enterpreneurs<br/>For Corprates<br/>For Global Brands</p>
+                          </div>
+                        </div> 
+                        <div className="mb-3">
+                          <div className='p-2'>
+                            <h6>YOUR BUSINESS TYPE</h6>
+                            <p>For Bloggers<br/>For Ticketers<br/>For Global Brands</p>
+                          </div>
+                        </div> 
+                      </div>
+                    </div>
+                  </div>
                 </li>
+                {/* <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Dropdown
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li> */}
                 <li className="nav-item">
                   <Link className="nav-link" to="/">Pricing</Link>
                 </li>
