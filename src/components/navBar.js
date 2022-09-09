@@ -11,6 +11,10 @@ import visa from "../img/vis.png";
 import ticketing from "../img/ticket.png";
 import tours from "../img/tourss.png";
 import hotel from "../img/reserve.png";
+import edu from "../img/edu.png";
+import hubs from "../img/hubs.png";
+import immigration from "../img/immi.png";
+import real from "../img/real.png";
 function Header() {
   return (
     <section>
@@ -106,18 +110,31 @@ function Header() {
                         </div> 
                       </div>
                       <div className="col-sm-6 col-12 right-menu">
-                        <div className="mb-3">
-                          <div className='p-2'>
-                            <h6>YOUR GROWTH STAGE</h6>
-                            <p>For Enterpreneurs<br/>For Corprates<br/>For Global Brands</p>
+                        <div className="d-flex flex-row mb-2">
+                          <div className='p-2'><img src={edu} alt="" className='img-fluid'/> </div>
+                          <div className='p-2 mt-2'>
+                            <h6>Educational</h6>
                           </div>
-                        </div> 
-                        <div className="mb-3">
-                          <div className='p-2'>
-                            <h6>YOUR BUSINESS TYPE</h6>
-                            <p>For Bloggers<br/>For Ticketers<br/>For Global Brands</p>
+                        </div>  
+                        <div className="d-flex flex-row mb-2">
+                          <div className='p-2'><img src={hubs} alt="" className='img-fluid'/> </div>
+                          <div className='p-2 mt-2'>
+                            <h6>Hub</h6>
                           </div>
-                        </div> 
+                        </div>  
+                        <div className="d-flex flex-row mb-2">
+                          <div className='p-2'><img src={real} alt="" className='img-fluid'/> </div>
+                          <div className='p-2 mt-2'>
+                            <h6>Real Estate</h6>
+                          </div>
+                        </div>  
+                        <div className="d-flex flex-row mb-2">
+                          <div className='p-2'><img src={immigration} alt="" className='img-fluid'/> </div>
+                          <div className='p-2 mt-2'>
+                            <h6>Immigration</h6>
+                          </div>
+                        </div>  
+                        
                       </div>
                     </div>
                   </div>
