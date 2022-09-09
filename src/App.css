@@ -273,3 +273,58 @@ body {
   font-weight: 500;
 }
 
+@media only screen and (min-width: 768px){
+  .dropdown-large {
+  min-width: 578px!important;
+  }
+}
+
+.dropdown-large { 
+  padding: 1rem; 
+  border: 1px solid transparent;
+  background: transparent;
+}
+
+.left-menu {
+  background-color: #fff;
+  padding-top: 26px;
+  padding-bottom: 26px;
+}
+
+.right-menu {
+  background-color: #f4f4f4;
+  padding-top: 54px;
+}
+
+.why-leap-menu{
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  /* border: 1px solid #f4f4f4; */
+}
+
+.languages {
+  background-color: transparent;
+}
+
+.left-menu h6 {
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 19px;
+}
+
+.left-menu p {
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 22px;
+}
+
+.right-menu h6 {
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 19px;
+}
+
+.right-menu p {
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 22px;
+}

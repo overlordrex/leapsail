@@ -74,7 +74,7 @@ function Footer() {
                   <a className="dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                     <i className="bi bi-globe"></i> English
                   </a>
-                  <ul className="dropdown-menu">
+                  <ul className="dropdown-menu languages">
                     <li><img src={fr} alt="" className="img-fluid pe-2 my-2" width={25} /><a href="#">French</a></li>
                     <li><img src={esp} alt="" className="img-fluid pe-2" width={25} /><a href="#">Spanish</a></li>
                   </ul>
