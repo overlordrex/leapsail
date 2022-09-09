@@ -7,6 +7,7 @@ import google from "../img/google.png";
 import apple from "../img/apple.png";
 import fr from "../img/fr.png";
 import esp from "../img/esp.png";
+import uk from "../img/uk.png";
 
 function Footer() {
   return (
@@ -72,7 +73,7 @@ function Footer() {
                 <li style={{display : "inline"}}><a href="#">Accessibility Statement</a></li>
                 <li className="dropdown" style={{display : "inline"}}>
                   <a className="dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    <i className="bi bi-globe"></i> English
+                    <img src={uk} alt="" className="img-fluid pe-2" width={25} />English
                   </a>
                   <ul className="dropdown-menu languages">
                     <li><img src={fr} alt="" className="img-fluid pe-2 my-2" width={25} /><a href="#">French</a></li>
