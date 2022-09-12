@@ -328,3 +328,27 @@ body {
   font-weight: 300;
   line-height: 22px;
 }
+
+/* #spin {
+  color: #00ABE7;
+} */
+
+#spin:after {
+  content: " ";
+  animation: spin 30s linear infinite;
+  -webkit-animation: spin 30s linear infinite;
+}
+
+@keyframes spin {
+  0% { content:"Excellent customer relations?";}
+  10% { content:"Excellent services?";}
+  20% { content:"Professional consultants?";}
+  30% { content:"Excellent customer relations?";}
+  40% { content:"Excellent services?";}
+  50% { content: "Professional consultants?";}
+  60% { content: "Excellent customer relations?"; }
+  70% { content: "Excellent services?"; }
+  80% { content: "Professional consultants?"; }
+  90% { content: "Excellent customer relations?"; }
+  100% { content: "Excellent services?"; }
+}
