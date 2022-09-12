@@ -253,7 +253,7 @@ function Header() {
                   <a className='btn brand-bg text-white px-4 fs-6 rounded-pill' href="/">Create Account</a>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link" to="/"><img src={ng} alt="" className='img-fluid' width={28} /></Link>
+                  <Link className="nav-link" to="/"><img src={ng} alt="" className='img-fluid' width={28} style={{marginTop: "-4px"}} /></Link>
                 </li>
               </ul>
             </div>
