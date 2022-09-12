@@ -28,7 +28,7 @@ function Header() {
   return (
     <section>
       <nav className="navbar navbar-expand-lg fixed-top navbar-light">
-        <div className='container'>
+        <div className='container-fluid'>
           <Link className='navbar-brand' to="/">
             <img src={logo} alt="" className='logo img-fluid' />
           </Link>
