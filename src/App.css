@@ -279,7 +279,19 @@ body {
   }
 }
 
+@media only screen and (min-width: 768px){
+  .dropdown-mini {
+  min-width: 250px!important;
+  }
+}
+
 .dropdown-large { 
+  padding: 1rem; 
+  border: 1px solid transparent;
+  background: transparent;
+}
+
+.dropdown-mini { 
   padding: 1rem; 
   border: 1px solid transparent;
   background: transparent;
@@ -294,6 +306,12 @@ body {
 .right-menu {
   background-color: #f4f4f4;
   padding-top: 54px;
+}
+
+.mini-menu {
+  background-color: #fff;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .why-leap-menu{
@@ -329,6 +347,12 @@ body {
   line-height: 22px;
 }
 
+.mini-menu h6 {
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 19px;
+}
+
 /* #spin {
   color: #00ABE7;
 } */
@@ -352,3 +376,16 @@ body {
   90% { content: "Excellent customer relations?"; }
   100% { content: "Excellent services?"; }
 }
+
+.right-menu h6 > a {
+  text-decoration: none;
+  color: #000;
+}
+
+.right-menu h6 > a:hover {
+  text-decoration: none;
+  color: #F6B736;
+}
+
+
+

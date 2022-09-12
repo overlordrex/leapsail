@@ -15,6 +15,15 @@ import edu from "../img/edu.png";
 import hubs from "../img/hubs.png";
 import immigration from "../img/immi.png";
 import real from "../img/real.png";
+import blog from "../img/blog.png";
+import guides from "../img/guides.png";
+import webinars from "../img/webinars.png";
+import client from "../img/clients.png";
+import agent from "../img/agent.png";
+import help from "../img/help.png";
+import book from "../img/book.png";
+
+
 function Header() {
   return (
     <section>
@@ -139,31 +148,103 @@ function Header() {
                     </div>
                   </div>
                 </li>
-                {/* <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Dropdown
-                  </a>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                  </ul>
-                </li> */}
                 <li className="nav-item">
                   <Link className="nav-link" to="/">Pricing</Link>
                 </li>
-                <li className="nav-item">
+                {/* <li className="nav-item">
                   <Link className="nav-link" to="/">Learn</Link>
+                </li> */}
+                <li className="nav-item dropdown">
+                  <Link className="nav-link dropdown-toggle" to="/" role="button" data-bs-toggle="dropdown" aria-expanded="false">Learn</Link>
+                  <div className="dropdown-menu dropdown-large">
+                    <div className='row why-leap-menu'>
+                      <div className="col-sm-6 col-12 left-menu">
+                        <div className="d-flex flex-row mb-2">
+                          <div className='p-2'><img src={blog} alt="" className='img-fluid'/> </div>
+                          <div className='p-2 mt-4'>
+                            <h6>Blog</h6>
+                          </div>
+                        </div> 
+                        <div className="d-flex flex-row mb-2">
+                          <div className='p-2'><img src={guides} alt="" className='img-fluid' /> </div>
+                          <div className='p-2 mt-4'>
+                            <h6>Guides</h6>
+                          </div>
+                        </div> 
+                        <div className="d-flex flex-row mb-2">
+                          <div className='p-2'><img src={webinars} alt="" className='img-fluid'/> </div>
+                          <div className='p-2 mt-4'>
+                            <h6>Webinars</h6>
+                          </div>
+                        </div> 
+                      </div>
+                      <div className="col-sm-6 col-12 right-menu">
+                        <div className="mb-2">
+                          <div className='p-2 mt-2'>
+                            <h6><a href='/'>Company</a></h6>
+                          </div>
+                          <div className='p-2'>
+                            <h6><a href='/'>About us</a></h6>
+                          </div>
+                          <div className='p-2'>
+                            <h6><a href='/'>Compliance</a></h6>
+                          </div>
+                          <div className='p-2'>
+                            <h6><a href='/'>Careers</a></h6>
+                          </div>
+                          <div className='p-2'>
+                            <h6><a href='/'>Board</a></h6>
+                          </div>
+                        </div>  
+                      </div>
+                    </div>
+                  </div>
                 </li>
               </ul>
             </div>
             <div className='ml-auto'>
               <ul className='navbar-nav'>
-                <li className="nav-item">
-                  <Link className="nav-link" to="/">Contact</Link>
+                <li className="nav-item dropdown">
+                  <Link className="nav-link dropdown-toggle" to="/" role="button" data-bs-toggle="dropdown" aria-expanded="false">Contact</Link>
+                  <div className="dropdown-menu dropdown-mini">
+                    <div className='row why-leap-menu'>
+                      <div className="col-sm-12 col-12 mini-menu">
+                        <div className="d-flex flex-row mb-2">
+                          <div className='p-2'><img src={agent} alt="" className='img-fluid'/> </div>
+                          <div className='p-2 mt-4'>
+                            <h6>Agents</h6>
+                          </div>
+                        </div> 
+                        <div className="d-flex flex-row mb-2">
+                          <div className='p-2'><img src={client} alt="" className='img-fluid' /> </div>
+                          <div className='p-2 mt-4'>
+                            <h6>Client</h6>
+                          </div>
+                        </div> 
+                      </div>
+                    </div>
+                  </div>
                 </li>
-                <li className="nav-item">
-                  <Link className="nav-link" to="/">Support</Link>
+                <li className="nav-item dropdown">
+                  <Link className="nav-link dropdown-toggle" to="/" role="button" data-bs-toggle="dropdown" aria-expanded="false">Support</Link>
+                  <div className="dropdown-menu dropdown-mini">
+                    <div className='row why-leap-menu'>
+                      <div className="col-sm-12 col-12 mini-menu">
+                        <div className="d-flex flex-row mb-2">
+                          <div className='p-2'><img src={help} alt="" className='img-fluid'/> </div>
+                          <div className='p-2 mt-4'>
+                            <h6>Quick Help</h6>
+                          </div>
+                        </div> 
+                        <div className="d-flex flex-row mb-2">
+                          <div className='p-2'><img src={book} alt="" className='img-fluid' /> </div>
+                          <div className='p-2 mt-4'>
+                            <h6>Book a Slot</h6>
+                          </div>
+                        </div> 
+                      </div>
+                    </div>
+                  </div>
                 </li>
                 <li className="nav-item">
                   <Link className="nav-link" to="/">Login</Link>
