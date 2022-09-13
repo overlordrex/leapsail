@@ -20,7 +20,7 @@
 }
 
 .right-form {
-  padding: 60px 40px;
+  padding: 60px 45px;
 
 }
 
@@ -31,14 +31,87 @@
   line-height: 30px;
 }
 
+.fig {
+  color: #2E3444;
+  font-size: 40px;
+  line-height: 22px;
+  font-weight: 900;
+}
+
 .left-form {
   padding: 60px 40px;
   text-align: center;
 }
 
 .left-form h4 {
-  font-size: 22px;
+  font-size: 35px;
   color: #F6B736;
   font-weight: 900;
-  line-height: 40px;
+  line-height: 22px;
+}
+
+.left-form h6 {
+  font-size: 25px;
+  color: #2E3444;
+  font-weight: 900;
+  line-height: 30px;
+}
+
+.left-form p {
+  font-size: 17px;
+  color: #2E3444;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+.left-footer {
+  padding-top: 90px;
+}
+
+.right-footer {
+  padding-top: 40px;
+}
+
+.form-check-input:checked {
+  background-color: #f6b736;
+  border-color: #f6b736;
+}
+
+.form-check h6 {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.fp h6 {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.btn-outline-secondary {
+  color: #ced4da;
+  border-color: #ced4da;
+  border-radius: 25px;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  height: calc(1.5em + 0.75rem + 2px);
+  padding: 24px 14px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 25px;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.login-footer {
+  background-color: #000;
+  padding: 60px 20px;
 }
