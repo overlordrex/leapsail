@@ -42,30 +42,30 @@ function Header() {
                   <Link className="nav-link active dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false" aria-current="page" to="/">Why Leapsail</Link>
                   <div className="dropdown-menu dropdown-large">
                     <div className='row why-leap-menu'>
-                      <div className="col-sm-6 col-12 left-menu">
+                      <div className="col-sm-6 col-6 left-menu">
                         <div className="d-flex flex-row mb-2">
-                          <div className='p-2'><img src={ballon} alt="" className='img-fluid'/> </div>
+                          <div className='p-2'><img src={ballon} alt="" className='img-fluid desktop'/> </div>
                           <div className='p-2'>
                             <h6>Why Choose Leapsail</h6>
                             <p>Over 8,000 Users trust Lit. Here's why.</p>
                           </div>
                         </div> 
                         <div className="d-flex flex-row mb-2">
-                          <div className='p-2'><img src={success} alt="" className='img-fluid' width={112}/> </div>
+                          <div className='p-2'><img src={success} alt="" className='img-fluid desktop' width={112}/> </div>
                           <div className='p-2'>
                             <h6>Success rates</h6>
                             <p>Get the best transactions success rates in the industry.</p>
                           </div>
                         </div> 
                         <div className="d-flex flex-row mb-2">
-                          <div className='p-2'><img src={customer} alt="" className='img-fluid' width={100}/> </div>
+                          <div className='p-2'><img src={customer} alt="" className='img-fluid desktop' width={100}/> </div>
                           <div className='p-2'>
                             <h6>Customer</h6>
                             <p>See Lit's checkout form and Dashboard in action.</p>
                           </div>
                         </div> 
                       </div>
-                      <div className="col-sm-6 col-12 right-menu">
+                      <div className="col-sm-6 col-6 right-menu">
                         <div className="mb-3">
                           <div className='p-2'>
                             <h6>YOUR GROWTH STAGE</h6>
@@ -86,59 +86,59 @@ function Header() {
                   <Link className="nav-link dropdown-toggle" to="/" role="button" data-bs-toggle="dropdown" aria-expanded="false">Products</Link>
                   <div className="dropdown-menu dropdown-large">
                     <div className='row why-leap-menu'>
-                      <div className="col-sm-6 col-12 left-menu">
+                      <div className="col-sm-6 col-6 left-menu">
                         <div className="d-flex flex-row mb-2">
-                          <div className='p-2'><img src={investment} alt="" className='img-fluid'/> </div>
+                          <div className='p-2'><img src={investment} alt="" className='img-fluid desktop'/> </div>
                           <div className='p-2 mt-2'>
                             <h6>Investment</h6>
                           </div>
                         </div> 
                         <div className="d-flex flex-row mb-2">
-                          <div className='p-2'><img src={visa} alt="" className='img-fluid' /> </div>
+                          <div className='p-2'><img src={visa} alt="" className='img-fluid desktop' /> </div>
                           <div className='p-2 mt-2'>
                             <h6>Visa</h6>
                           </div>
                         </div> 
                         <div className="d-flex flex-row mb-2">
-                          <div className='p-2'><img src={ticketing} alt="" className='img-fluid'/> </div>
+                          <div className='p-2'><img src={ticketing} alt="" className='img-fluid desktop'/> </div>
                           <div className='p-2 mt-2'>
                             <h6>Ticketing</h6>
                           </div>
                         </div> 
                         <div className="d-flex flex-row mb-2">
-                          <div className='p-2'><img src={hotel} alt="" className='img-fluid'/> </div>
+                          <div className='p-2'><img src={hotel} alt="" className='img-fluid desktop'/> </div>
                           <div className='p-2 mt-2'>
                             <h6>Hotel Reservation</h6>
                           </div>
                         </div> 
                         <div className="d-flex flex-row mb-2">
-                          <div className='p-2'><img src={tours} alt="" className='img-fluid'/> </div>
+                          <div className='p-2'><img src={tours} alt="" className='img-fluid desktop'/> </div>
                           <div className='p-2 mt-2'>
                             <h6>Tours</h6>
                           </div>
                         </div> 
                       </div>
-                      <div className="col-sm-6 col-12 right-menu">
+                      <div className="col-sm-6 col-6 right-menu">
                         <div className="d-flex flex-row mb-2">
-                          <div className='p-2'><img src={edu} alt="" className='img-fluid'/> </div>
+                          <div className='p-2'><img src={edu} alt="" className='img-fluid desktop'/> </div>
                           <div className='p-2 mt-2'>
                             <h6>Educational</h6>
                           </div>
                         </div>  
                         <div className="d-flex flex-row mb-2">
-                          <div className='p-2'><img src={hubs} alt="" className='img-fluid'/> </div>
+                          <div className='p-2'><img src={hubs} alt="" className='img-fluid desktop'/> </div>
                           <div className='p-2 mt-2'>
                             <h6>Hub</h6>
                           </div>
                         </div>  
                         <div className="d-flex flex-row mb-2">
-                          <div className='p-2'><img src={real} alt="" className='img-fluid'/> </div>
+                          <div className='p-2'><img src={real} alt="" className='img-fluid desktop'/> </div>
                           <div className='p-2 mt-2'>
                             <h6>Real Estate</h6>
                           </div>
                         </div>  
                         <div className="d-flex flex-row mb-2">
-                          <div className='p-2'><img src={immigration} alt="" className='img-fluid'/> </div>
+                          <div className='p-2'><img src={immigration} alt="" className='img-fluid desktop'/> </div>
                           <div className='p-2 mt-2'>
                             <h6>Immigration</h6>
                           </div>
@@ -158,27 +158,27 @@ function Header() {
                   <Link className="nav-link dropdown-toggle" to="/" role="button" data-bs-toggle="dropdown" aria-expanded="false">Learn</Link>
                   <div className="dropdown-menu dropdown-large">
                     <div className='row why-leap-menu'>
-                      <div className="col-sm-6 col-12 left-menu">
+                      <div className="col-sm-6 col-6 left-menu">
                         <div className="d-flex flex-row mb-2">
-                          <div className='p-2'><img src={blog} alt="" className='img-fluid'/> </div>
+                          <div className='p-2'><img src={blog} alt="" className='img-fluid desktop'/> </div>
                           <div className='p-2 mt-4'>
                             <h6>Blog</h6>
                           </div>
                         </div> 
                         <div className="d-flex flex-row mb-2">
-                          <div className='p-2'><img src={guides} alt="" className='img-fluid' /> </div>
+                          <div className='p-2'><img src={guides} alt="" className='img-fluid desktop' /> </div>
                           <div className='p-2 mt-4'>
                             <h6>Guides</h6>
                           </div>
                         </div> 
                         <div className="d-flex flex-row mb-2">
-                          <div className='p-2'><img src={webinars} alt="" className='img-fluid'/> </div>
+                          <div className='p-2'><img src={webinars} alt="" className='img-fluid desktop'/> </div>
                           <div className='p-2 mt-4'>
                             <h6>Webinars</h6>
                           </div>
                         </div> 
                       </div>
-                      <div className="col-sm-6 col-12 right-menu">
+                      <div className="col-sm-6 col-6 right-menu">
                         <div className="mb-2">
                           <div className='p-2 mt-2'>
                             <h6><a href='/'>Company</a></h6>
@@ -208,15 +208,15 @@ function Header() {
                   <Link className="nav-link dropdown-toggle" to="/" role="button" data-bs-toggle="dropdown" aria-expanded="false">Contact</Link>
                   <div className="dropdown-menu dropdown-mini">
                     <div className='row why-leap-menu'>
-                      <div className="col-sm-12 col-12 mini-menu">
+                      <div className="col-sm-12 col-6 mini-menu">
                         <div className="d-flex flex-row mb-2">
-                          <div className='p-2'><img src={agent} alt="" className='img-fluid'/> </div>
+                          <div className='p-2'><img src={agent} alt="" className='img-fluid desktop'/> </div>
                           <div className='p-2 mt-4'>
                             <h6>Agents</h6>
                           </div>
                         </div> 
                         <div className="d-flex flex-row mb-2">
-                          <div className='p-2'><img src={client} alt="" className='img-fluid' /> </div>
+                          <div className='p-2'><img src={client} alt="" className='img-fluid desktop' /> </div>
                           <div className='p-2 mt-4'>
                             <h6>Client</h6>
                           </div>
@@ -229,15 +229,15 @@ function Header() {
                   <Link className="nav-link dropdown-toggle" to="/" role="button" data-bs-toggle="dropdown" aria-expanded="false">Support</Link>
                   <div className="dropdown-menu dropdown-mini">
                     <div className='row why-leap-menu'>
-                      <div className="col-sm-12 col-12 mini-menu">
+                      <div className="col-sm-12 col-6 mini-menu">
                         <div className="d-flex flex-row mb-2">
-                          <div className='p-2'><img src={help} alt="" className='img-fluid'/> </div>
+                          <div className='p-2'><img src={help} alt="" className='img-fluid desktop'/> </div>
                           <div className='p-2 mt-4'>
                             <h6>Quick Help</h6>
                           </div>
                         </div> 
                         <div className="d-flex flex-row mb-2">
-                          <div className='p-2'><img src={book} alt="" className='img-fluid' /> </div>
+                          <div className='p-2'><img src={book} alt="" className='img-fluid desktop' /> </div>
                           <div className='p-2 mt-4'>
                             <h6>Book a Slot</h6>
                           </div>

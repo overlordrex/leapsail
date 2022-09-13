@@ -44,6 +44,10 @@ body {
   font-weight: 500!important;
 }
 
+.nav-link:hover {
+  color: #F6B736!important;
+}
+
 .brand-color {
   color: #F6B736!important;
 }
@@ -279,6 +283,13 @@ body {
   }
 }
 
+@media (max-width: 767.98px){
+  .dropdown-large {
+    min-width: 309px!important;
+    margin-left: -33px;
+  }
+}
+
 @media only screen and (min-width: 768px){
   .dropdown-mini {
   min-width: 250px!important;
@@ -387,5 +398,11 @@ body {
   color: #F6B736;
 }
 
+@media (max-width: 767.98px){
+  .right-menu {
+    background-color: #f4f4f4;
+    padding-top: 29px;
+  }
+}
 
 
