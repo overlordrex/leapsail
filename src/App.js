@@ -1,6 +1,6 @@
 import React from 'react';
-import './App.css';
-import './Footer.css';
+import './css/App.css';
+import './css/Footer.css';
 import Carousel from './components/carousel';
 import Footer from './components/footer';
 import FooterTop from './components/footerTop';

@@ -209,13 +209,13 @@ function Header() {
                   <div className="dropdown-menu dropdown-mini">
                     <div className='row why-leap-menu'>
                       <div className="col-sm-12 col-6 mini-menu">
-                        <div className="d-flex flex-row mb-2">
+                        <div className="d-flex flex-row mb-1">
                           <div className='p-2'><img src={agent} alt="" className='img-fluid desktop'/> </div>
                           <div className='p-2 mt-4'>
                             <h6>Agents</h6>
                           </div>
                         </div> 
-                        <div className="d-flex flex-row mb-2">
+                        <div className="d-flex flex-row mb-1">
                           <div className='p-2'><img src={client} alt="" className='img-fluid desktop' /> </div>
                           <div className='p-2 mt-4'>
                             <h6>Client</h6>
@@ -230,13 +230,13 @@ function Header() {
                   <div className="dropdown-menu dropdown-mini">
                     <div className='row why-leap-menu'>
                       <div className="col-sm-12 col-6 mini-menu">
-                        <div className="d-flex flex-row mb-2">
+                        <div className="d-flex flex-row mb-1">
                           <div className='p-2'><img src={help} alt="" className='img-fluid desktop'/> </div>
                           <div className='p-2 mt-4'>
                             <h6>Quick Help</h6>
                           </div>
                         </div> 
-                        <div className="d-flex flex-row mb-2">
+                        <div className="d-flex flex-row mb-1">
                           <div className='p-2'><img src={book} alt="" className='img-fluid desktop' /> </div>
                           <div className='p-2 mt-4'>
                             <h6>Book a Slot</h6>
@@ -247,7 +247,7 @@ function Header() {
                   </div>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link" to="/">Login</Link>
+                  <Link className="nav-link" to="/login">Login</Link>
                 </li>
                 <li className='nav-item'>
                   <a className='btn brand-bg text-white px-4 fs-6 rounded-pill' href="/">Create Account</a>

@@ -31,7 +31,7 @@ body {
 
 .banner {
   background-color: #f7f8f9;
-  background-image: url('./img/bg-footer.png');
+  background-image: url('../img/bg-footer.png');
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -70,7 +70,7 @@ body {
 }
 
 .left {
-  background-image: url('./img/bg.png');
+  background-image: url('../img/bg.png');
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -255,7 +255,7 @@ body {
 
 .footertop {
   padding: 60px 20px;
-  background-image: url("./img/footer-top.png");
+  background-image: url("../img/bg-footer.png");
   background-color: #F6B736;
   background-position: 50%;
   background-repeat: no-repeat;
