@@ -5,3 +5,40 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.login-form {
+  background-color: #f3f3f3;
+}
+
+.form-box {
+  margin-top: -100px;
+  /* min-height: 500px; */
+  margin-bottom: 100px;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.right-form {
+  padding: 60px 40px;
+
+}
+
+.right-form h5 {
+  color: #2E3444;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+}
+
+.left-form {
+  padding: 60px 40px;
+  text-align: center;
+}
+
+.left-form h4 {
+  font-size: 22px;
+  color: #F6B736;
+  font-weight: 900;
+  line-height: 40px;
+}
