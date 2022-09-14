@@ -7,6 +7,7 @@ import {
   Route,
 } from "react-router-dom"; 
 import Login from './pages/login';
+import ForgotPassword from './pages/forgotPassword';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -14,6 +15,7 @@ root.render(
   <Routes>
     <Route path="/" element={<App />}></Route>
     <Route path="/login" element={<Login/>}></Route>
+    <Route path="/forgot-password" element={<ForgotPassword/>}></Route>
   </Routes>
 </BrowserRouter>
 );

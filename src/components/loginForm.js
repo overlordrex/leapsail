@@ -43,7 +43,7 @@ function LoginForm() {
                         </label>
                       </div>
                       <div className="float-end fp" style={{marginTop: "-39px"}}>
-                        <h6><a href="#"></a>Forgot Password?</h6>
+                        <h6><a href="/forgot-password">Forgot Password?</a></h6>
                       </div>
                     </div>
                     <div className="right-footer">

@@ -83,10 +83,21 @@
   line-height: 30px;
 }
 
-.fp h6 {
+.fp h6>a {
   font-size: 14px;
   font-weight: 400;
   line-height: 30px;
+  position: relative;
+  color: #000;
+}
+
+.fp h6>a:hover {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 30px;
+  position: relative;
+  color: #f6b736;
+  text-decoration: none;
 }
 
 .btn-outline-secondary {
@@ -138,4 +149,22 @@
   .login-footer {
     text-align: center;
   }
+}
+
+.passform {
+  padding: 70px 30px;
+}
+
+.passform h4 {
+  color: #2E3444;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+}
+
+.passform h6 {
+  color: #2E3444;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 30px;
 }
