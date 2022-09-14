@@ -84,7 +84,7 @@ function Footer() {
             </div>
           </div>
           <div className="col-md-4 mb-3">
-           <ul className="social list-unstyled">
+            <ul className="social list-unstyled">
               <li><a href="/"><i className="bi bi-instagram icon-border text-dark fs-5"></i></a></li>
               <li><a href="/"><i className="bi bi-twitter icon-border text-dark fs-5"></i></a></li>
               <li><a href="/"><i className="bi bi-linkedin icon-border text-dark fs-5"></i></a></li>

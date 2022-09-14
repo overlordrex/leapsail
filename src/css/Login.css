@@ -60,12 +60,12 @@
 .left-form p {
   font-size: 17px;
   color: #2E3444;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 30px;
 }
 
 .left-footer {
-  padding-top: 90px;
+  padding-top: 90px!important;
 }
 
 .right-footer {
@@ -113,5 +113,29 @@
 
 .login-footer {
   background-color: #000;
-  padding: 70px 20px;
+  padding: 70px 20px 40px 20px;
+}
+
+.login-footer .social li {
+  display: inline-block;
+  position: relative; 
+}
+
+.icon-border {
+  border: 1px solid #fff;
+  padding: 10px 12px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.login-footer p > a {
+  font-size: 15px;
+  color: #fff;
+  text-decoration: none;
+}
+
+@media (max-width: 767.98px){
+  .login-footer {
+    text-align: center;
+  }
 }

@@ -19,8 +19,8 @@ function LoginForm() {
                   <h5 className="mt-5 fig">8,205</h5>
                   <p className="mt-3">people have already joined,<br/>
                   join in also!</p>
-                  <div className="left-footer">
-                    <img src={download} alt="" className="img-fluid" />
+                  <div className="">
+                    <img src={download} alt="" className="img-fluid desktop left-footer" />
                   </div>
                 </div>
                 <div className="col-md-6 right-form">
@@ -48,6 +48,7 @@ function LoginForm() {
                     </div>
                     <div className="right-footer">
                       <button type="button" className="btn btn-outline-warning px-4 py-3 fs-6 rounded-pill" style={{width: "100%"}}>Sign Up</button>
+                      <img src={download} alt="" className="img-fluid mobile" />
                     </div>
                   </form>
                 </div>
