@@ -48,7 +48,7 @@ function LoginForm() {
                       </div>
                     </div>
                     <div className="right-footer">
-                      <button type="button" className="btn btn-outline-warning px-4 py-3 fs-6 rounded-pill" style={{width: "100%"}}>Sign Up</button>
+                      <a href="/register" className="btn btn-outline-warning px-4 py-3 fs-6 rounded-pill" style={{width: "100%"}}>Sign up</a>
                       <img src={download} alt="" className="img-fluid mobile" />
                     </div>
                   </form>

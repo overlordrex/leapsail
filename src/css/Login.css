@@ -168,3 +168,24 @@
   font-weight: 400;
   line-height: 30px;
 }
+
+.right-footer a {
+  color: #F6B736!important;
+  text-decoration: none;
+}
+
+/* .right-footer a:hover {
+  color: #fff;
+  text-decoration: none;
+} */
+
+.btn-outline-warning {
+  color: #f6b736;
+  border-color: #f6b736;
+}
+
+.btn-outline-warning:hover {
+  color: #fff!important;
+  border-color: #af790d;
+  background-color: #af790d;
+}
