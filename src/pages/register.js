@@ -1,12 +1,15 @@
 import React from "react";
 import Header from "../components/headerDashboard";
-// import LoginFooter from "../components/loginFooter";
+import SignUp from "../components/signUp";
+import "../css/Register.css";
+import LoginFooter from "../components/loginFooter";
 
 function Signup() {
   return (
     <div>
       <Header/>
-      {/* <LoginFooter/> */}
+      <SignUp/>
+      <LoginFooter/>
     </div>
   )
 }

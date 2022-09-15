@@ -12,11 +12,11 @@ function LoginFooter() {
           </div>
           <div className="col-md-4 mb-5">
             <ul className="social list-unstyled">
-              <li><a href="/"><i className="bi bi-instagram icon-border text-white fs-5"></i></a></li>
-              <li><a href="/"><i className="bi bi-twitter icon-border text-white fs-5"></i></a></li>
-              <li><a href="/"><i className="bi bi-linkedin icon-border text-white fs-5"></i></a></li>
-              <li><a href="/"><i className="bi bi-facebook icon-border text-white fs-5"></i></a></li>
-              <li><a href="/"><i className="bi bi-youtube icon-border text-white fs-5"></i></a></li>
+              <li><a href="/"><i className="bi bi-instagram icon-border-white text-white fs-5"></i></a></li>
+              <li><a href="/"><i className="bi bi-twitter icon-border-white text-white fs-5"></i></a></li>
+              <li><a href="/"><i className="bi bi-linkedin icon-border-white text-white fs-5"></i></a></li>
+              <li><a href="/"><i className="bi bi-facebook icon-border-white text-white fs-5"></i></a></li>
+              <li><a href="/"><i className="bi bi-youtube icon-border-white text-white fs-5"></i></a></li>
             </ul>
           </div>
           <div className="col-md-4 mb-5">
