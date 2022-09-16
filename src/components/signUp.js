@@ -20,21 +20,23 @@ function SignUp() {
                     </div>
                   </div>
                   <div className="row">
-                    <div className="col mb-4">
+                    <div className="col mb-3">
                       <select className="form-select">
                         <option selected>Male</option>
                         <option value="2">Female</option>
                       </select>
                     </div>
-                    <div className="col mb-4">
-                      <input className="form-control" type="number" min="18" max="39" placeholder="Age" required/>
+                    <div className="col mb-3">
+                      <input className="form-control" type="date" min="18" max="39" placeholder="Age" required/>
+                      <small className="fmt">Age: 18 - 40</small>
                     </div>
                   </div>
                   <div className="mb-4">
-                    <input className="form-control" type="tel" maxLength="14" placeholder="Phone Number" required/>
+                    <input className="form-control" type="tel" maxLength="14" placeholder="Phone Number" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}-[0-9]{3}" required/>
+                    <small className="fmt">Format: 080-23-456-789</small>
                   </div>
                   <div className="col-12">
-                    <button type="button" className="btn brand-bg text-white px-4 py-3 fs-6 rounded-pill" style={{width: "100%"}}>Next</button>
+                    <button type="submit" className="btn brand-bg text-white px-4 py-3 fs-6 rounded-pill" style={{width: "100%"}}>Next</button>
                   </div>
                 </form>
               </div>
