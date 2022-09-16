@@ -27,8 +27,8 @@ function SignUp() {
                       </select>
                     </div>
                     <div className="col mb-3">
-                      <input className="form-control" type="date" min="18" max="39" placeholder="Age" required/>
-                      <small className="fmt">Age: 18 - 40</small>
+                      <input className="form-control" type="date" min="1900-08-01" max="2004-01-01" placeholder="Age" required/>
+                      <small className="fmt">Age: 18 &gt;</small>
                     </div>
                   </div>
                   <div className="mb-4">
