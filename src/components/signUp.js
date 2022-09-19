@@ -22,8 +22,9 @@ function SignUp() {
                   <div className="row">
                     <div className="col mb-4">
                       <select className="form-select">
-                        <option selected>Male</option>
-                        <option value="2">Female</option>
+                        <option selected disabled>Gender</option>
+                        <option value="2">Male</option>
+                        <option value="3">Female</option>
                       </select>
                     </div>
                     <div className="col mb-4">
@@ -31,7 +32,19 @@ function SignUp() {
                     </div>
                   </div>
                   <div className="mb-4">
-                    <input className="form-control" type="tel" maxLength="14" placeholder="Phone Number (Format: 080-23-456-789)" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}-[0-9]{3}" required/>
+                    <input className="form-control" type="tel" maxLength="14" placeholder="Phone Number ( Format: 080-23-456-789 )" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}-[0-9]{3}" required/>
+                  </div>
+                  <div className="row">
+                    <div className="col mb-4">
+                      <select className="form-select">
+                        <option selected disabled>Have you traveled before?</option>
+                        <option value="1">Yes</option>
+                        <option value="2">No</option>
+                      </select>
+                    </div>
+                    <div className="col mb-4">
+                      <input type="text" className="form-control" id="formGroupExampleInput" placeholder="Where would that be?" required/>
+                    </div>
                   </div>
                   <div className="col-12">
                     <button type="submit" className="btn brand-bg text-white px-4 py-3 fs-6 rounded-pill" style={{width: "100%"}}>Next</button>
