@@ -98,8 +98,13 @@ function SignUp() {
                       </select>
                     </div>
                     <div className="col mb-4">
-                      {/* <input className="form-control" id="lga" name="lga" placeholder="Enter LGA"/> */}
-                      <select name="lga" id="lga" className="form-control select-lga" required></select>
+                      <select className="selectpicker" data-show-subtext="false" data-live-search="true">
+                        <option value=""> Select LGA</option>
+                        <option value="Aba North">Aba North</option>
+                        <option value="Aba South">Aba South</option>
+                        <option value="Ikeja">Ikeja</option>
+                        <option value="Ikorodu">Ikorodu</option>
+                      </select>
                     </div>
                   </div>
                   <div className="col-12">
