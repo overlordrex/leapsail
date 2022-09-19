@@ -12,22 +12,22 @@ function SignUp() {
                 <h4 className="text-center mb-5">Welcome! Create your account.</h4>
                 <form>
                   <div className="row">
-                    <div className="col mb-4">
+                    <div className="col-12 col-md-6 mb-4">
                       <input type="text" className="form-control" id="formGroupExampleInput" placeholder="First Name" required/>
                     </div>
-                    <div className="col mb-4">
+                    <div className="col-12 col-md-6 mb-4">
                       <input className="form-control" type="text" maxLength="20" placeholder="Last Name" required/>
                     </div>
                   </div>
                   <div className="row">
-                    <div className="col mb-4">
+                    <div className="col-12 col-md-6 mb-4">
                       <select className="form-select">
                         <option defaultValue="Gender" >Gender</option>
                         <option value="2">Male</option>
                         <option value="3">Female</option>
                       </select>
                     </div>
-                    <div className="col mb-4">
+                    <div className="col-12 col-md-6 mb-4">
                       <input className="form-control" type="date" min="1900-08-01" max="2004-01-01" placeholder="Age" required/>
                     </div>
                   </div>
@@ -42,20 +42,20 @@ function SignUp() {
                         <option value="2">No</option>
                       </select>
                     </div>
-                    <div className="col mb-4">
+                    <div className="col-12 col-md-6 mb-4">
                       <input type="text" className="form-control" id="formGroupExampleInput" placeholder="Where would that be?" required/>
                     </div>
                   </div>
                   <div className="row">
-                    <div className="col mb-4">
+                    <div className="col-12 col-md-6 mb-4">
                       <input type="text" className="form-control" placeholder="Street Name" required/>
                     </div>
-                    <div className="col mb-4">
+                    <div className="col-12 col-md-6 mb-4">
                       <input className="form-control" type="number" maxLength="10" placeholder="Street Number" required/>
                     </div>
                   </div>  
                   <div className="row">
-                    <div className="col mb-4">
+                    <div className="col-12 col-md-6 mb-4">
                       <select className="selectpicker" data-show-subtext="false" data-live-search="true">
                         <option value=""> Select State</option>
                         <option value="Abia">Abia</option>
@@ -97,7 +97,7 @@ function SignUp() {
                         <option value="Zamfara">Zamafara</option>
                       </select>
                     </div>
-                    <div className="col mb-4">
+                    <div className="col-12 col-md-6 mb-4">
                       <select className="selectpicker" data-show-subtext="false" data-live-search="true">
                         <option value=""> Select LGA</option>
                         <option value="Aba North">Aba North</option>
