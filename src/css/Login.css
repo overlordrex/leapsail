@@ -294,3 +294,19 @@
   min-width: 279px!important;
 }
 
+.passform h5 {
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 30px;
+  color: #2E3444;
+}
+
+a {
+  color: #F6B736;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #F6B736;
+  text-decoration: none;
+}

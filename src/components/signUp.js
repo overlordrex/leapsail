@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 
 function SignUp() {
@@ -13,7 +14,7 @@ function SignUp() {
                 <form>
                   <div className="row">
                     <div className="col-12 col-md-6 mb-4">
-                      <input type="text" className="form-control" id="formGroupExampleInput" placeholder="First Name" required/>
+                      <input type="text" className="form-control" placeholder="First Name" required/>
                     </div>
                     <div className="col-12 col-md-6 mb-4">
                       <input className="form-control" type="text" maxLength="20" placeholder="Last Name" required/>
@@ -43,7 +44,7 @@ function SignUp() {
                       </select>
                     </div>
                     <div className="col-12 col-md-6 mb-4">
-                      <input type="text" className="form-control" id="formGroupExampleInput" placeholder="Where would that be?" required/>
+                      <input type="text" className="form-control" placeholder="Where would that be?" required/>
                     </div>
                   </div>
                   <div className="row">
@@ -128,8 +129,25 @@ function SignUp() {
                       </select>
                     </div>
                   </div>
+                  <div className="mb-4">
+                    <input className="form-control" type="email" placeholder="Email Address" required/>
+                  </div>
+                  <div className="row">
+                    <div className="col mb-4">
+                      <input id="password" className="form-control" type="password" maxLength="20" placeholder="Password" required/>
+                    </div>
+                    <div className="col mb-4">
+                      <input id="passwordconfirm" className="form-control" type="password" maxLength="20" placeholder="Confirm Password" required/>
+                    </div>
+                  </div>
+                  <div className="mb-5">
+                    <h6 className="text-center">By clicking finish I agree with the terms, Privacy Policy and Fees.</h6>
+                  </div>
                   <div className="col-12">
-                    <button type="submit" className="btn brand-bg text-white px-4 py-3 fs-6 rounded-pill" style={{width: "100%"}}>Next</button>
+                    <button type="submit" className="btn brand-bg text-white px-4 py-3 fs-6 rounded-pill" style={{width: "100%"}}>Register</button>
+                  </div>
+                  <div className="mt-5">
+                    <h5 className="text-center">Already have an account? <span><Link to="/login">Login</Link></span></h5>
                   </div>
                 </form>
               </div>
