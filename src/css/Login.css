@@ -291,7 +291,7 @@
 
 .dropdown-menu.show {
   display: block!important;
-  min-width: 279px!important;
+  /* min-width: 279px!important; */
 }
 
 .passform h5 {
@@ -301,8 +301,13 @@
   color: #2E3444;
 }
 
-a {
+h5 a {
   color: #F6B736;
+  text-decoration: none;
+}
+
+h6 a {
+  color: #000;
   text-decoration: none;
 }
 
@@ -310,3 +315,4 @@ a:hover {
   color: #F6B736;
   text-decoration: none;
 }
+
