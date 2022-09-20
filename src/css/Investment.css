@@ -1,0 +1,26 @@
+.investmentbanner {
+  /* background-color: #F6B736; */
+  background-image: url("../img/hero-invest.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 30px;
+}
+
+.right-invest {
+  background-image: url("../img/hero-invest.png");
+  /* background-position: 50%; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 320px 0;
+}
+
+.left-invest {
+  padding: 200px 80px 200px 40px;
+}
+
+.left-invest h2 {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 60px;
+  color: #fff;
+}
