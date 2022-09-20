@@ -275,4 +275,10 @@
 
 select.selectpicker {
   display: block!important;
+  color: #000;
+  width: 284px;
+  padding: 12px 20px;
+  background: transparent;
+  border-radius: 25px;
+  border: 1px solid #ced4da;
 }
