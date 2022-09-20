@@ -100,10 +100,31 @@ function SignUp() {
                     <div className="col-12 col-md-6 mb-4">
                       <select className="selectpicker" data-show-subtext="false" data-live-search="true">
                         <option value=""> Select LGA</option>
-                        <option value="Aba North">Aba North</option>
+                        {/* <option value="Aba North">Aba North</option>
                         <option value="Aba South">Aba South</option>
+                        <option value="Arochukwu">Arochukwu</option>
+                        <option value="Bende">Bende</option>
+                        <option value="Ikwuano">Ikwuano</option>
+                        <option value="Isuikwuato">Isuikwuato</option>
+                        <option value="Ohafia">Ohafia</option> */}
+                        <option value="Agege">Agege</option>
+                        <option value="Ajeromi-Ifelodun">Ajeromi-Ifelodun</option>
+                        <option value="Alimosho">Alimosho</option>
+                        <option value="Apapa">Apapa</option>
+                        <option value="Amuwo-Odofin">Amuwo-Odofin</option>
+                        <option value="Badagry">Badagry</option>
+                        <option value="Epe">Epe</option>
+                        <option value="Eti-osa">Eti Osa</option>
+                        <option value="Lekki">Lekki</option>
                         <option value="Ikeja">Ikeja</option>
+                        <option value="Ifako-Ijaiye">Ifako-Ijaiye</option>
                         <option value="Ikorodu">Ikorodu</option>
+                        <option value="Yaba">Yaba</option>
+                        <option value="Kosofe">Kosofe</option>
+                        <option value="Mushin">Mushin</option>
+                        <option value="Shomolu">Shomolu</option>
+                        <option value="Oshodi-Isolo">Oshodi-Isolo</option>
+                        <option value="Ojo">Ojo</option>
                       </select>
                     </div>
                   </div>
