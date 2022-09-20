@@ -56,7 +56,7 @@ function SignUp() {
                   </div>  
                   <div className="row">
                     <div className="col-12 col-md-6 mb-4">
-                      <select className="selectpicker" data-show-subtext="false" data-live-search="true">
+                      <select className="selectpicker" data-show-subtext="truefixes" data-live-search="true">
                         <option value=""> Select State</option>
                         <option value="Abia">Abia</option>
                         <option value="Adamawa">Adamawa</option>
