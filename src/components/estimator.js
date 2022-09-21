@@ -5,7 +5,7 @@ function Estimator() {
     <section>
       <div className="container">
         <div className="row">
-          <div className="col-md-6">
+          <div className="col-md-7">
             <div className="estimator-form">
               <h2 className="text-center">Investment Estimator</h2>  
               <form className="mt-5">
@@ -17,14 +17,15 @@ function Estimator() {
                 </div>
                 <div className="row mb-3">
                   <label className="col-sm-4 col-form-label">Duration (per annum)</label>
-                  <div className="d-flex flex-row mb-3 col-sm-5">
+                  <div className="d-flex flex-row mb-3 col-sm-4">
                     <div className="me-2 circle">1</div>
                     <div className="me-2 circle-two">3</div>
                     <div className="me-2 circle-three">6</div>
                     <div className="me-2 circle-four">9</div>
                   </div>
-                  <div className="col-sm-3">
-                    <input type="number" className="form-control" />
+                  <div className="col-sm-4 input-group">
+                    <input type="number" class="form-control" />
+                    <button class="btn btn-success border-rad" type="button" id="button-addon2">Go</button>
                   </div>
                 </div>
               </form>

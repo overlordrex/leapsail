@@ -56,6 +56,7 @@
   text-align: center;
   cursor: pointer;
 }
+
 .circle-two {
   border-radius: 50%;
   width: 40px;
@@ -93,4 +94,24 @@
   font-size: 19px;
   text-align: center;
   cursor: pointer;
+}
+
+.border-rad{
+  border-top-right-radius: 28px;
+  border-bottom-right-radius: 28px;
+  color: #fff;
+  background-color: #f9a826;
+  border-color: #f9a826;
+}
+
+.border-rad:hover{
+  background-color: #f9a826;
+  border-color: #f9a826;
+}
+
+.input-group>:not(:first-child):not(.dropdown-menu):not(.form-floating):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {
+  margin-left: -1px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  height: 50px;
 }
