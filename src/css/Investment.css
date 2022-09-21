@@ -34,3 +34,63 @@
   padding: 60px 30px;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
+
+.col-form-label {
+  padding-top: calc(0.375rem + 1px);
+  padding-bottom: calc(0.375rem + 1px);
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.circle {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  padding: 5px 14px;
+  background: #8798C6;
+  border: 1px solid #8798C6;
+  color: #fff;
+  font-size: 19px;
+  text-align: center;
+  cursor: pointer;
+}
+.circle-two {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  padding: 5px 14px;
+  background: #FFC0BB;
+  border: 1px solid #FFC0BB;
+  color: #fff;
+  font-size: 19px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.circle-three {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  padding: 5px 14px;
+  background: #3D85AD;
+  border: 1px solid #3D85AD;
+  color: #fff;
+  font-size: 19px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.circle-four {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  padding: 5px 14px;
+  background: #B277B1;
+  border: 1px solid #B277B1;
+  color: #fff;
+  font-size: 19px;
+  text-align: center;
+  cursor: pointer;
+}
