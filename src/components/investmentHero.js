@@ -6,7 +6,8 @@ function InvestmentHero () {
       <div className="container-fluid">
         <div className="row">
           <div className="col-md-5 left-invest">
-            <h2>Your profits can fit<br/>perfectly into your<br/>daily routine.</h2>
+            <h2 className="mb-5">Your profits can fit<br/>perfectly into your<br/>daily routine.</h2>
+            <a className='btn bg-white text-white px-5 py-3 rounded-pill brand-bg brand-color fs-6' href="/">Make Investment</a>
           </div>
           <div className="col-md-7"></div>
         </div>

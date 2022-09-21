@@ -1,21 +1,15 @@
 .investmentbanner {
   /* background-color: #F6B736; */
-  background-image: url("../img/hero-invest.png");
+  background-image: url("../img/hero-investment.png");
   background-repeat: no-repeat;
   background-size: cover;
   padding: 100px 30px;
+  margin-top: 60px;
 }
 
-.right-invest {
-  background-image: url("../img/hero-invest.png");
-  /* background-position: 50%; */
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: 320px 0;
-}
 
 .left-invest {
-  padding: 200px 80px 200px 40px;
+  padding: 120px 80px 120px 40px;
 }
 
 .left-invest h2 {
@@ -23,4 +17,20 @@
   font-weight: 700;
   line-height: 60px;
   color: #fff;
+}
+
+.estimator-form h2 {
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 60px;
+  color: #000;
+}
+
+.estimator-form {
+  margin-top: -30px;
+  margin-bottom: 90px;
+  background-color: #fff;
+  border-radius: 30px;
+  padding: 60px 30px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
