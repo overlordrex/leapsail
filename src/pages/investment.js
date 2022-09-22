@@ -4,6 +4,7 @@ import Header from "../components/navBar";
 import InvestmentHero from "../components/investmentHero";
 import Estimator from "../components/estimator";
 import Footer from '../components/footer';
+import HowItWork from "../components/howIt";
 
 function Investment () {
   return (
@@ -11,6 +12,7 @@ function Investment () {
       <Header/>
       <InvestmentHero/>
       <Estimator/>
+      <HowItWork/>
       <Footer/>
     </div>
   )

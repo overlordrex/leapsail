@@ -115,3 +115,59 @@
   border-bottom-left-radius: 0;
   height: 50px;
 }
+
+@media (min-width: 992px){
+  .ror {
+    margin-top: 118px;
+  }
+}
+
+.estimate {
+  margin-left: -30px;
+  margin-right: -30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.bg-brand {
+  background-color: #F6B736;
+}
+
+.bg-brand h4 {
+  font-size: 20px;
+  line-height: 60px;
+}
+
+.col-form-label {
+  padding-top: calc(0.375rem + 1px);
+  padding-bottom: calc(0.375rem + 1px);
+  margin-bottom: 0;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+@media (min-width: 992px){
+  .left-estimator {
+    margin-top: 250px;
+    padding: 0px 0px 0px 20px;
+  }
+}
+
+.left-estimator h6 {
+  color: #000;
+  font-size: 38px;
+  line-height: 60px;
+  font-weight: 700;
+}
+
+.how-it-work {
+  padding: 90px 20px;
+}
+
+.how-it-work h2 {
+  color: #2E3444;
+  line-height: 50px;
+  font-weight: 500;
+  font-size: 40px;
+}
