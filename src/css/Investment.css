@@ -232,3 +232,14 @@
     margin-top: 40px;
   }
 }
+
+.makeinvest {
+  padding: 90px 20px;
+}
+
+.makeinvest h6 {
+  font-size: 37px;
+  font-weight: 500;
+  line-height: 47px;
+  color: #000;
+}

@@ -6,6 +6,7 @@ import Estimator from "../components/estimator";
 import Footer from '../components/footer';
 import HowItWork from "../components/howIt";
 import Reward from "../components/rewarding";
+import MakeInvestment from "../components/makeInvestment";
 
 function Investment () {
   return (
@@ -15,6 +16,7 @@ function Investment () {
       <Estimator/>
       <HowItWork/>
       <Reward/>
+      <MakeInvestment/>
       <Footer/>
     </div>
   )
