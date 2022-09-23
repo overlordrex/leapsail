@@ -198,3 +198,37 @@
   color: #000;
   font-weight: 600;
 }
+
+.rewarding-section {
+  padding: 120px 20px;
+  background-image: url("../img/bg-reward.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #E6E7E8;
+  /* background-position: 50%; */
+}
+
+.rewarding-section h3 {
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: 700;
+  color: #000;
+}
+
+.rewarding-section p {
+  font-size: 20px;
+  line-height: 35px;
+  color: #2E3444;
+  font-weight: 400;
+}
+
+@media (min-width: 992px){
+  .topping {
+    margin-top: 75px;
+  }
+}
+@media (max-width: 767.98px){
+  .topping {
+    margin-top: 40px;
+  }
+}

@@ -5,6 +5,7 @@ import InvestmentHero from "../components/investmentHero";
 import Estimator from "../components/estimator";
 import Footer from '../components/footer';
 import HowItWork from "../components/howIt";
+import Reward from "../components/rewarding";
 
 function Investment () {
   return (
@@ -13,6 +14,7 @@ function Investment () {
       <InvestmentHero/>
       <Estimator/>
       <HowItWork/>
+      <Reward/>
       <Footer/>
     </div>
   )
