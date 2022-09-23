@@ -211,7 +211,7 @@
   padding: 120px 20px;
   background-image: url("../img/bg-reward.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   background-color: #E6E7E8;
   /* background-position: 50%; */
 }
