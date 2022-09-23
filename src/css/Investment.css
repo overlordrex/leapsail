@@ -7,10 +7,18 @@
   margin-top: 60px;
 }
 
-
-.left-invest {
-  padding: 120px 80px 120px 40px;
+@media (min-width: 992px){
+  .left-invest {
+    padding: 120px 80px 120px 40px;
+  }
 }
+
+@media (max-width: 767.98px){
+  .left-invest {
+    padding: 120px 20px;
+  }
+}
+
 
 .left-invest h2 {
   font-size: 50px;
@@ -242,4 +250,28 @@
   font-weight: 500;
   line-height: 47px;
   color: #000;
+}
+
+.left-demystify {
+  background-image: url('../img/left-demystify.png');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 200px 0;
+}
+
+.right-demystify {
+  background-image: url('../img/zigzag.png');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 200px 30px;
+  background-color: #F6B736;
+}
+
+.right-demystify h5 {
+  color: #fff;
+  font-size: 45px;
+  line-height: 60px;
+  font-weight: 900;
 }

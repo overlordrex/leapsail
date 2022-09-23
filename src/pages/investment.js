@@ -7,6 +7,8 @@ import Footer from '../components/footer';
 import HowItWork from "../components/howIt";
 import Reward from "../components/rewarding";
 import MakeInvestment from "../components/makeInvestment";
+import Demystify from "../components/demystify";
+import Yield from "../components/yield";
 
 function Investment () {
   return (
@@ -17,6 +19,8 @@ function Investment () {
       <HowItWork/>
       <Reward/>
       <MakeInvestment/>
+      <Demystify/>
+      <Yield/>
       <Footer/>
     </div>
   )
