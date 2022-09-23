@@ -162,7 +162,7 @@
 }
 
 .how-it-work {
-  padding: 90px 20px;
+  padding: 90px 0px;
 }
 
 .how-it-work h2 {
@@ -170,4 +170,31 @@
   line-height: 50px;
   font-weight: 500;
   font-size: 40px;
+}
+
+@media (min-width: 992px){
+  .liner::after { 
+    content: url("../img/line.png");
+    position: absolute;
+    right: -16px;
+    bottom: 209px;
+  }
+}
+
+.works {
+  padding: 60px 20px;
+}
+
+.works p {
+  font-size: 17px;
+  line-height: 25px;
+  color: #2E3444;
+  font-weight: 400;
+}
+
+.works h6 {
+  font-size: 20px;
+  line-height: 60px;
+  color: #000;
+  font-weight: 600;
 }
