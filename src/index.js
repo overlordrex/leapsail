@@ -10,6 +10,7 @@ import Login from './pages/login';
 import ForgotPassword from './pages/forgotPassword';
 import Signup from './pages/register';
 import Investment from './pages/investment';
+import Invest from './pages/invest';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -20,6 +21,7 @@ root.render(
     <Route path="/forgot-password" element={<ForgotPassword/>}></Route>
     <Route path="/register" element={<Signup/>}></Route>
     <Route path="/investment" element={<Investment/>}></Route>
+    <Route path="/invest" element={<Invest/>}></Route>
   </Routes>
 </BrowserRouter>
 );
