@@ -12,10 +12,12 @@ import Signup from './pages/register';
 import Investment from './pages/investment';
 import Invest from './pages/invest';
 import InvestPage from './pages/investment-page';
+import ScrollToTop from './js/scrollTop';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
 <BrowserRouter>
+  <ScrollToTop/>
   <Routes>
     <Route path="/" element={<App />}></Route>
     <Route path="/login" element={<Login/>}></Route>
