@@ -1,6 +1,7 @@
 import React from "react";
 import one from "../img/4.png";
 import two from "../img/5.png";
+import SecondLayer from "./secondLayer";
 
 function FirstLayer() {
   return (
@@ -30,6 +31,7 @@ function FirstLayer() {
           </div>
         </div>
       </div>
+      <SecondLayer/>
     </section>
   )
 }
