@@ -3,34 +3,42 @@ import { Link } from "react-router-dom";
 
 function ThirdLayer() {
   return (
-    <div className="container">
+    <div className="container mb-5">
       <div className="row justify-content-center">
         <div className="col-md-8">
           <div>
             <form>
               <div className="invest-form">
                 <div className="mb-4">
-                  <label className="form-label">Amount to Invest</label>
+                  <label className="form-label">Withholding Tax (%)</label>
                   <input type="number" className="form-control" id="formGroupExampleInput" placeholder="Enter amount to invest" required/>
                 </div>
-                <div className="mb-4">
-                  <label className="form-label">Duration (per annum)</label>
-                  <select className="form-select">
-                    <option value="" selected>Duration (per annum)</option>
-                    <option value="">2</option>
-                    <option value="">3</option>
-                    <option value="">4</option>
-                    <option value="">6</option>
-                  </select>
-                  {/* <input type="number" className="form-control" id="formGroupExampleInput" placeholder="Enter amount to invest" required/> */}
+              </div>
+              <div className="invest-form mt-4">
+                <div className="row">
+                  <div className="col-md-8 mt-3">
+                    <label className="form-label">Terms and Conditions Form (Agreement)</label>
+                  </div>
+                  <div className="col-md-4">
+                    <Link className='btn brand-bg text-white px-5 py-3 rounded-pill brand-bg text-white fs-6' to="/">Download</Link>
+                  </div>
                 </div>
-                <div className="mb-4">
-                  <label className="form-label">Amount in Words</label>
-                  <input type="text" className="form-control" id="formGroupExampleInput" placeholder="Enter amount in words" required/>
+              </div>
+              <div className="invest-form mt-4">
+                <div className="row">
+                  <div className="col-md-6 mt-3">
+                    <label className="form-label">Text (Notification)</label>
+                  </div>
+                  <div className="col-md-3">
+                    <Link className='btn brand-bg text-white px-5 py-3 rounded-pill brand-bg text-white fs-6' to="/">Email</Link>
+                  </div>
+                  <div className="col-md-3">
+                    <Link className='btn brand-bg text-white px-5 py-3 rounded-pill brand-bg text-white fs-6' to="/">SMS</Link>
+                  </div>
                 </div>
               </div>
               <div className="my-5 text-center">
-                <Link className='btn brand-bg text-white px-5 py-3 rounded-pill brand-bg text-white fs-6' to="/">Use Estimator</Link>
+                <Link className='btn brand-bg text-white px-5 py-3 rounded-pill brand-bg text-white fs-6' to="/">Proceed</Link>
               </div>
             </form>
           </div>
