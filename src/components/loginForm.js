@@ -1,12 +1,37 @@
 /* eslint-disable jsx-a11y/anchor-has-content */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import download from '../img/downloads.png';
+import axios from 'axios';
 
 function LoginForm() {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
+
+  const navigate = useNavigate();
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
+    // console.log(email, password);
+
+    try {
+      const { data } = await axios.post(
+        'http://localhost:8000/api/auth/login',
+        {
+          email,
+          password,
+        }
+      );
+
+      localStorage.setItem('user', JSON.stringify(data));
+
+      navigate('/dashboard');
+    } catch (err) {
+      console.log(err);
+    }
+  };
 
   return (
     <section className="login-form">
@@ -38,13 +63,14 @@ function LoginForm() {
                 </div>
                 <div className="col-md-6 right-form">
                   <h5 className="mb-4">Kindly login to your account</h5>
-                  <form className="row">
+                  <form className="row" onSubmit={handleSubmit}>
                     <div className="mb-4">
                       <input
                         type="email"
                         className="form-control"
                         id="formGroupExampleInput"
                         placeholder="Enter email address"
+                        value={email}
                         onChange={(e) => setEmail(e.target.value)}
                         required
                       />
@@ -54,7 +80,8 @@ function LoginForm() {
                         id="password"
                         className="form-control"
                         type="password"
-                        maxLength="20"
+                        value={password}
+                        // maxLength="20"
                         placeholder="Enter password"
                         onChange={(e) => setPassword(e.target.value)}
                         required
@@ -62,7 +89,7 @@ function LoginForm() {
                     </div>
                     <div className="col-12">
                       <button
-                        type="button"
+                        type="submit"
                         className="btn brand-bg text-white px-4 py-3 fs-6 rounded-pill"
                         style={{ width: '100%' }}
                       >
