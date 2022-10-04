@@ -34,7 +34,7 @@ function LoginForm() {
                   </div>
                 </div>
                 <div className="col-md-6 right-form">
-                  <h5 className="mb-4">Kindly login to your account please</h5>
+                  <h5 className="mb-4">Kindly login to your account</h5>
                   <form className="row">
                     <div className="mb-4">
                       <input
