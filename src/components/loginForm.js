@@ -1,10 +1,13 @@
 /* eslint-disable jsx-a11y/anchor-has-content */
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import download from '../img/downloads.png';
 
 function LoginForm() {
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
+
   return (
     <section className="login-form">
       <div className="container">
@@ -42,6 +45,7 @@ function LoginForm() {
                         className="form-control"
                         id="formGroupExampleInput"
                         placeholder="Enter email address"
+                        onChange={(e) => setEmail(e.target.value)}
                         required
                       />
                     </div>
@@ -52,6 +56,7 @@ function LoginForm() {
                         type="password"
                         maxLength="20"
                         placeholder="Enter password"
+                        onChange={(e) => setPassword(e.target.value)}
                         required
                       />
                     </div>

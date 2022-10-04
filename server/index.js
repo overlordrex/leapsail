@@ -1,6 +1,7 @@
 import express from 'express';
 import dotenv from 'dotenv';
 import mongoose from 'mongoose';
+import cors from 'cors';
 
 import authRoute from './routes/auth.js';
 
@@ -14,6 +15,7 @@ const connectDB = () => {
     .catch((err) => console.error(err));
 };
 
+app.use(cors());
 app.use(express.json());
 app.use('/api/auth', authRoute);
 
