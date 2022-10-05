@@ -37,7 +37,7 @@ function SignUp() {
     // } else {
     //   console.log('wrong credientials');
     // }
-    console.log('submit user');
+    console.log('submit user demilade');
   };
 
   return (
