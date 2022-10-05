@@ -59,6 +59,7 @@ function SignUp() {
                         className="form-control"
                         placeholder="First Name"
                         required
+                        value={firstName}
                         onChange={(e) => setFirstName(e.target.value)}
                       />
                     </div>
@@ -69,6 +70,7 @@ function SignUp() {
                         maxLength="20"
                         placeholder="Last Name"
                         required
+                        value={lastName}
                         onChange={(e) => setLastName(e.target.value)}
                       />
                     </div>
@@ -188,6 +190,7 @@ function SignUp() {
                       type="email"
                       placeholder="Email Address"
                       required
+                      value={email}
                       onChange={(e) => setEmail(e.target.value)}
                     />
                   </div>
@@ -200,6 +203,7 @@ function SignUp() {
                         maxLength="20"
                         placeholder="Password"
                         required
+                        value={password}
                         onChange={(e) => setPassword(e.target.value)}
                       />
                     </div>
@@ -211,6 +215,7 @@ function SignUp() {
                         maxLength="20"
                         placeholder="Confirm Password"
                         required
+                        value={repeatPassword}
                         onChange={(e) => setRepeatPassword(e.target.value)}
                       />
                     </div>
