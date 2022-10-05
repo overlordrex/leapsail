@@ -119,7 +119,7 @@ function LoginForm() {
                     </div>
                     <div className="right-footer">
                       <a
-                        href="#"
+                        href="/register"
                         className="btn btn-outline-warning px-4 py-3 fs-6 rounded-pill"
                         style={{ width: '100%' }}
                       >

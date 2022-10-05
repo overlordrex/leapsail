@@ -20,7 +20,7 @@ function SignUp() {
                       <input className="form-control" type="text" maxLength="20" placeholder="Last Name" required/>
                     </div>
                   </div>
-                  <div className="row">
+                  {/* <div className="row">
                     <div className="col-12 col-md-6 mb-4">
                       <select className="form-select">
                         <option defaultValue="Gender" >Gender</option>
@@ -31,11 +31,11 @@ function SignUp() {
                     <div className="col-12 col-md-6 mb-4">
                       <input className="form-control" type="date" min="1900-08-01" max="2004-01-01" placeholder="Age" required/>
                     </div>
-                  </div>
-                  <div className="mb-4">
+                  </div> */}
+                  {/* <div className="mb-4">
                     <input className="form-control" type="tel" maxLength="14" placeholder="Phone Number ( Format: 080-23-456-789 )" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}-[0-9]{3}" required/>
-                  </div>
-                  <div className="row">
+                  </div> */}
+                  {/* <div className="row">
                     <div className="col mb-4">
                       <select className="form-select">
                         <option defaultValue="Have you traveled before?" >Have you traveled before?</option>
@@ -46,16 +46,16 @@ function SignUp() {
                     <div className="col-12 col-md-6 mb-4">
                       <input type="text" className="form-control" placeholder="Where would that be?" required/>
                     </div>
-                  </div>
-                  <div className="row">
+                  </div> */}
+                  {/* <div className="row">
                     <div className="col-12 col-md-6 mb-4">
                       <input type="text" className="form-control" placeholder="Street Name" required/>
                     </div>
                     <div className="col-12 col-md-6 mb-4">
                       <input className="form-control" type="number" maxLength="10" placeholder="Street Number" required/>
                     </div>
-                  </div>  
-                  <div className="row">
+                  </div>   */}
+                  {/* <div className="row">
                     <div className="col-12 col-md-6 mb-4">
                       <select className="selectpicker" data-show-subtext="false" data-live-search="true">
                         <option value=""> Select State</option>
@@ -101,13 +101,13 @@ function SignUp() {
                     <div className="col-12 col-md-6 mb-4">
                       <select className="selectpicker" data-show-subtext="false" data-live-search="true">
                         <option value=""> Select LGA</option>
-                        {/* <option value="Aba North">Aba North</option>
+                        <option value="Aba North">Aba North</option>
                         <option value="Aba South">Aba South</option>
                         <option value="Arochukwu">Arochukwu</option>
                         <option value="Bende">Bende</option>
                         <option value="Ikwuano">Ikwuano</option>
                         <option value="Isuikwuato">Isuikwuato</option>
-                        <option value="Ohafia">Ohafia</option> */}
+                        <option value="Ohafia">Ohafia</option>
                         <option value="Agege">Agege</option>
                         <option value="Ajeromi-Ifelodun">Ajeromi-Ifelodun</option>
                         <option value="Alimosho">Alimosho</option>
@@ -128,7 +128,7 @@ function SignUp() {
                         <option value="Ojo">Ojo</option>
                       </select>
                     </div>
-                  </div>
+                  </div> */}
                   <div className="mb-4">
                     <input className="form-control" type="email" placeholder="Email Address" required/>
                   </div>
