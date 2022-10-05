@@ -18,7 +18,7 @@ function LoginForm() {
 
     try {
       const { data } = await axios.post(
-        'http://localhost:8000/api/auth/login',
+        'https://leapsail-ng-app.herokuapp.com/api/auth/login',
         {
           email,
           password,
@@ -119,7 +119,7 @@ function LoginForm() {
                     </div>
                     <div className="right-footer">
                       <a
-                        href="/register"
+                        href="#"
                         className="btn btn-outline-warning px-4 py-3 fs-6 rounded-pill"
                         style={{ width: '100%' }}
                       >
