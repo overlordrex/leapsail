@@ -13,17 +13,19 @@ function SignUp() {
 
   const createUser = async () => {
     try {
-      const { data } = await axios.post(
-        'https://job-op.herokuapp.com/api/auth/register',
-        {
-          firstName,
-          lastName,
-          email,
-          password,
-        }
-      );
+      // const { data } = await axios.post(
+      //   'http://localhost:8000/api/auth/register',
+      //   {
+      //     firstName,
+      //     lastName,
+      //     email,
+      //     password,
+      //   }
+      // );
 
-      navigate('/login');
+      // console.log(data);
+      // navigate('/login');
+      alert('click');
     } catch (error) {
       console.log(error);
     }
