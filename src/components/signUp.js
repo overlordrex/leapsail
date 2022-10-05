@@ -1,8 +1,44 @@
-import React from "react";
-import { Link } from "react-router-dom";
-
+import axios from 'axios';
+import React, { useState } from 'react';
+import { Link, useNavigate } from 'react-router-dom';
 
 function SignUp() {
+  const [firstName, setFirstName] = useState('');
+  const [lastName, setLastName] = useState('');
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
+  const [repeatPassword, setRepeatPassword] = useState('');
+
+  const navigate = useNavigate();
+
+  const createUser = async () => {
+    try {
+      const { data } = await axios.post(
+        'https://job-op.herokuapp.com/api/auth/register',
+        {
+          firstName,
+          lastName,
+          email,
+          password,
+        }
+      );
+
+      navigate('/login');
+    } catch (error) {
+      console.log(error);
+    }
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    if (password === repeatPassword) {
+      createUser();
+    } else {
+      console.log('wrong credientials');
+    }
+  };
+
   return (
     <section className="login-form">
       <div className="container">
@@ -10,14 +46,29 @@ function SignUp() {
           <div className="col-md-8">
             <div className="form-box">
               <div className="passform">
-                <h4 className="text-center mb-5">Welcome! Create your account.</h4>
-                <form>
+                <h4 className="text-center mb-5">
+                  Welcome! Create your account.
+                </h4>
+                <form onSubmit={handleSubmit}>
                   <div className="row">
                     <div className="col-12 col-md-6 mb-4">
-                      <input type="text" className="form-control" placeholder="First Name" required/>
+                      <input
+                        type="text"
+                        className="form-control"
+                        placeholder="First Name"
+                        required
+                        onChange={(e) => setFirstName(e.target.value)}
+                      />
                     </div>
                     <div className="col-12 col-md-6 mb-4">
-                      <input className="form-control" type="text" maxLength="20" placeholder="Last Name" required/>
+                      <input
+                        className="form-control"
+                        type="text"
+                        maxLength="20"
+                        placeholder="Last Name"
+                        required
+                        onChange={(e) => setLastName(e.target.value)}
+                      />
                     </div>
                   </div>
                   {/* <div className="row">
@@ -130,24 +181,60 @@ function SignUp() {
                     </div>
                   </div> */}
                   <div className="mb-4">
-                    <input className="form-control" type="email" placeholder="Email Address" required/>
+                    <input
+                      className="form-control"
+                      type="email"
+                      placeholder="Email Address"
+                      required
+                      onChange={(e) => setEmail(e.target.value)}
+                    />
                   </div>
                   <div className="row">
                     <div className="col mb-4">
-                      <input id="password" className="form-control" type="password" maxLength="20" placeholder="Password" required/>
+                      <input
+                        id="password"
+                        className="form-control"
+                        type="password"
+                        maxLength="20"
+                        placeholder="Password"
+                        required
+                        onChange={(e) => setPassword(e.target.value)}
+                      />
                     </div>
                     <div className="col mb-4">
-                      <input id="passwordconfirm" className="form-control" type="password" maxLength="20" placeholder="Confirm Password" required/>
+                      <input
+                        id="passwordconfirm"
+                        className="form-control"
+                        type="password"
+                        maxLength="20"
+                        placeholder="Confirm Password"
+                        required
+                        onChange={(e) => setRepeatPassword(e.target.value)}
+                      />
                     </div>
                   </div>
                   <div className="mb-5">
-                    <h6 className="text-center">By clicking finish I agree with the terms, Privacy Policy and Fees.</h6>
+                    <h6 className="text-center">
+                      By clicking finish I agree with the terms, Privacy Policy
+                      and Fees.
+                    </h6>
                   </div>
                   <div className="col-12">
-                    <button type="submit" className="btn brand-bg text-white px-4 py-3 fs-6 rounded-pill" style={{width: "100%"}}>Register</button>
+                    <button
+                      type="submit"
+                      className="btn brand-bg text-white px-4 py-3 fs-6 rounded-pill"
+                      style={{ width: '100%' }}
+                    >
+                      Register
+                    </button>
                   </div>
                   <div className="mt-5">
-                    <h5 className="text-center">Already have an account? <span><Link to="/login">Login</Link></span></h5>
+                    <h5 className="text-center">
+                      Already have an account?{' '}
+                      <span>
+                        <Link to="/login">Login</Link>
+                      </span>
+                    </h5>
                   </div>
                 </form>
               </div>
@@ -156,7 +243,7 @@ function SignUp() {
         </div>
       </div>
     </section>
-  )
+  );
 }
 
 export default SignUp;
