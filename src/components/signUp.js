@@ -237,7 +237,7 @@ function SignUp() {
                   </div>
                   <div className="mt-5">
                     <h5 className="text-center">
-                      Already have an account?{' '}
+                      You already have an account?{' '}
                       <span>
                         <Link to="/login">Login</Link>
                       </span>
