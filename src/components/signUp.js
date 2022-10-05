@@ -25,7 +25,7 @@ function SignUp() {
 
       // console.log(data);
       // navigate('/login');
-      alert('click');
+      console.log('rex');
     } catch (error) {
       console.log(error);
     }
