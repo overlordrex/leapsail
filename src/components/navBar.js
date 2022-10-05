@@ -250,7 +250,7 @@ function Header() {
                   <a className="nav-link" href="/login">Login</a>
                 </li>
                 <li className='nav-item'>
-                  <a className='btn brand-bg text-white px-4 fs-6 rounded-pill' href="/">Create Account</a>
+                  <a className='btn brand-bg text-white px-4 fs-6 rounded-pill' href="/register">Create Account</a>
                 </li>
                 <li className="nav-item">
                   <Link className="nav-link" to="/"><img src={ng} alt="" className='img-fluid' width={28} style={{marginTop: "-4px"}} /></Link>
