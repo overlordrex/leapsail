@@ -31,3 +31,13 @@ export const login = async (req, res, next) => {
     next(error);
   }
 };
+
+export const getUsers = async (req, res, next) => {
+  try {
+    const products = await User.find();
+
+    res.status(200).json(products);
+  } catch (error) {
+    next(error);
+  }
+};
